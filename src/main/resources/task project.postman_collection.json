@@ -90,14 +90,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/1",
+							"raw": "{{URL}}/api/university/17",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
 								"university",
-								"1"
+								"17"
 							]
 						}
 					},
@@ -109,14 +109,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/1",
+							"raw": "{{URL}}/api/university/15",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
 								"university",
-								"1"
+								"15"
 							]
 						}
 					},
@@ -134,7 +134,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"TUIT\",\r\n    \"address\":\"Yunusobod\",\r\n    \"year\":2022\r\n}",
+							"raw": "{\r\n    \"name\":\"KIF\",\r\n    \"universityId\":16\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -142,13 +142,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/faculty/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"faculty",
 								""
 							]
 						}
@@ -189,13 +189,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/faculty/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"faculty",
 								""
 							]
 						}
@@ -208,14 +208,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/faculty/14",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"faculty",
+								"14"
 							]
 						}
 					},
@@ -227,14 +227,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/faculty/11",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"faculty",
+								"11"
 							]
 						}
 					},
@@ -252,7 +252,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"TUIT\",\r\n    \"year\":2022,\r\n    \"facultyId\":\"3798852a-388f-4b48-8219-f3666e90c627\",\r\n    \"subjectsId\":[\r\n        \"28d44841-3a0a-4758-8449-f9d84251fd11\",\r\n        \"27c11443-9f24-4754-8876-a0861758ba1a\"\r\n    ]\r\n}",
+							"raw": "{\r\n    \"name\":\"211-20\",\r\n    \"year\":2022,\r\n    \"facultyId\":14,\r\n    \"subjectsId\":[4]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -280,7 +280,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"TUIT2\",\r\n    \"address\":\"Yunusobod\",\r\n    \"year\":2022\r\n}",
+							"raw": "{\r\n    \"name\":\"211-20\",\r\n    \"year\":2022,\r\n    \"facultyId\":1,\r\n    \"subjectsId\":[3,4]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -288,14 +288,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/api/university/006465f9-23f4-4d6a-9f26-88b45a10f3d0",
+							"raw": "{{URL}}/api/group/1",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"006465f9-23f4-4d6a-9f26-88b45a10f3d0"
+								"group",
+								"1"
 							]
 						}
 					},
@@ -307,13 +307,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/group/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"group",
 								""
 							]
 						}
@@ -345,14 +345,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/group/f18f5753-83e3-49b8-99c8-6cf34f8965e4",
+							"raw": "{{URL}}/api/group/10",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
 								"group",
-								"f18f5753-83e3-49b8-99c8-6cf34f8965e4"
+								"10"
 							]
 						}
 					},
@@ -370,7 +370,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"TUIT\",\r\n    \"year\":2022,\r\n    \"facultyId\":\"3798852a-388f-4b48-8219-f3666e90c627\",\r\n    \"subjectsId\":[\r\n        \"28d44841-3a0a-4758-8449-f9d84251fd11\",\r\n        \"27c11443-9f24-4754-8876-a0861758ba1a\"\r\n    ]\r\n}",
+							"raw": "{\r\n    \"name\":\"TUIT2\",\r\n    \"groupId\":12\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -378,13 +378,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/api/group/",
+							"raw": "{{URL}}/api/student/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"group",
+								"student",
 								""
 							]
 						}
@@ -398,7 +398,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"TUIT2\",\r\n    \"address\":\"Yunusobod\",\r\n    \"year\":2022\r\n}",
+							"raw": "{\r\n    \"name\":\"TUIT\",\r\n    \"groupId\":3\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -406,14 +406,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/api/university/006465f9-23f4-4d6a-9f26-88b45a10f3d0",
+							"raw": "{{URL}}/api/student/1",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"006465f9-23f4-4d6a-9f26-88b45a10f3d0"
+								"student",
+								"1"
 							]
 						}
 					},
@@ -425,13 +425,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/student/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"student",
 								""
 							]
 						}
@@ -444,14 +444,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/student/9",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"student",
+								"9"
 							]
 						}
 					},
@@ -463,14 +463,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/student/find/TUIT",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"student",
+								"find",
+								"TUIT"
 							]
 						}
 					},
@@ -482,14 +483,24 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/student/mark?groupId=3&subjectId=4",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"student",
+								"mark"
+							],
+							"query": [
+								{
+									"key": "groupId",
+									"value": "3"
+								},
+								{
+									"key": "subjectId",
+									"value": "4"
+								}
 							]
 						}
 					},
@@ -501,14 +512,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/group/f18f5753-83e3-49b8-99c8-6cf34f8965e4",
+							"raw": "{{URL}}/api/student/3",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"group",
-								"f18f5753-83e3-49b8-99c8-6cf34f8965e4"
+								"student",
+								"3"
 							]
 						}
 					},
@@ -518,7 +529,24 @@
 					"name": "get subjects",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/student/subject?studentId=1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"student",
+								"subject"
+							],
+							"query": [
+								{
+									"key": "studentId",
+									"value": "1"
+								}
+							]
+						}
 					},
 					"response": []
 				}
@@ -529,26 +557,24 @@
 			"item": [
 				{
 					"name": "save",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"TUIT\",\r\n    \"address\":\"Yunusobod\",\r\n    \"year\":2022\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
+							"raw": "{\r\n    \"name\":\"Matematika\"\r\n}"
 						},
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/subject/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"subject",
 								""
 							]
 						}
@@ -561,13 +587,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/subject/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"subject",
 								""
 							]
 						}
@@ -589,14 +615,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/api/university/006465f9-23f4-4d6a-9f26-88b45a10f3d0",
+							"raw": "{{URL}}/api/subject/1",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"006465f9-23f4-4d6a-9f26-88b45a10f3d0"
+								"subject",
+								"1"
 							]
 						}
 					},
@@ -608,14 +634,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/subject/4",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"subject",
+								"4"
 							]
 						}
 					},
@@ -627,14 +653,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/subject/3",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"subject",
+								"3"
 							]
 						}
 					},
@@ -652,7 +678,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"TUIT\",\r\n    \"address\":\"Yunusobod\",\r\n    \"year\":2022\r\n}",
+							"raw": "{\r\n    \"name\":\"211-20 Fizika\",\r\n    \"groupId\":12,\r\n    \"subjectId\":4\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -660,13 +686,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/journal/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"journal",
 								""
 							]
 						}
@@ -679,13 +705,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/journal/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"journal",
 								""
 							]
 						}
@@ -707,14 +733,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/api/university/006465f9-23f4-4d6a-9f26-88b45a10f3d0",
+							"raw": "{{URL}}/api/journal/1",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"006465f9-23f4-4d6a-9f26-88b45a10f3d0"
+								"journal",
+								"1"
 							]
 						}
 					},
@@ -726,14 +752,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/journal/2",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"journal",
+								"2"
 							]
 						}
 					},
@@ -745,14 +771,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/journal/3",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"journal",
+								"3"
 							]
 						}
 					},
@@ -770,7 +796,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"TUIT\",\r\n    \"address\":\"Yunusobod\",\r\n    \"year\":2022\r\n}",
+							"raw": "{\r\n    \"mark\":10,\r\n    \"studentId\":9,\r\n    \"journalId\":11\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -778,13 +804,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/mark/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"mark",
 								""
 							]
 						}
@@ -797,13 +823,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/",
+							"raw": "{{URL}}/api/mark/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
+								"mark",
 								""
 							]
 						}
@@ -825,14 +851,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/api/university/006465f9-23f4-4d6a-9f26-88b45a10f3d0",
+							"raw": "{{URL}}/api/mark/",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"006465f9-23f4-4d6a-9f26-88b45a10f3d0"
+								"mark",
+								""
 							]
 						}
 					},
@@ -844,14 +870,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/mark/1",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"mark",
+								"1"
 							]
 						}
 					},
@@ -863,14 +889,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/api/university/effede8a-e12f-4fae-842a-f61d5d7f872f",
+							"raw": "{{URL}}/api/mark/3",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
-								"university",
-								"effede8a-e12f-4fae-842a-f61d5d7f872f"
+								"mark",
+								"3"
 							]
 						}
 					},
